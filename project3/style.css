@@ -4,6 +4,7 @@
   border: solid black 1px;
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 .grid div {
@@ -12,15 +13,21 @@
 }
 
 .invader {
-  background-color: purple;
+background-image: url(/project3/alien.webp);
   border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .shooter {
-  background-color: red;
+  background-image: url(/project3/gun.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .laser{
-  background-color: green;
+ background-image: url(/project3/bullet.png);
+ background-size: cover;
+ background-repeat: no-repeat;
 }
 
 .boom{
